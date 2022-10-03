@@ -36,11 +36,29 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
+            <div className="space">
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
+            &nbsp;
+            <span className={`${letterClass} _13`}> m </span>
+            <span className={`${letterClass} _14`}> y </span>
+            &nbsp;
+            <span className={`${letterClass} _15`}> n </span>
+            <span className={`${letterClass} _16`}> a </span>
+            <span className={`${letterClass} _17`}> m</span>
+            <span className={`${letterClass} _18`}> e </span>
+            &nbsp;
+            <span className={`${letterClass} _18`}> i </span>
+            <span className={`${letterClass} _18`}> s </span>
+            </div>
+            <span className={`${letterClass} _18`}> 𝘿𝙝𝙞𝙖 𝙈𝙗𝙖𝙧𝙠𝙞 </span>
+
+
+
+          
             <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
+            <span className={`${letterClass} _19`}>I</span>
+            <span className={`${letterClass} _20`}>'m</span>
             <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
