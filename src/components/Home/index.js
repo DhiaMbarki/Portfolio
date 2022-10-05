@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
+import Animated from './Animated'
+
 // import Logo from './Logo'
 import './index.scss'
 
@@ -32,7 +34,10 @@ const Home = () => {
   }, [])
 
   return (
+  
     <>
+     
+
       <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -54,9 +59,10 @@ const Home = () => {
             <span className={`${letterClass} _18`}> 𝘿𝙝𝙞𝙖 𝙈𝙗𝙖𝙧𝙠𝙞 </span>
 
 
-
+            
           
             <br />
+
             <span className={`${letterClass} _19`}>I</span>
             <span className={`${letterClass} _20`}>'m</span>
             <img
@@ -81,6 +87,8 @@ const Home = () => {
           </Link>
         </div>
         {/* <Logo /> */}
+        <Animated/>
+
       </div>
 
       <Loader type="pacman" />
