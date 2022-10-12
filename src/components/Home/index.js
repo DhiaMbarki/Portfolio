@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 
 // import Logo from './Logo'
+import About from './About'
 import './index.scss'
 
 const Home = () => {
@@ -85,6 +86,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <About/>
         {/* <Logo /> */}
 
       </div>
