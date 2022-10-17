@@ -1,14 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState,useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
+import {gsap, Power3} from 'gsap';
 
 // import Logo from './Logo'
-import About from './About'
+import Images from './Images'
 import './index.scss'
 
-const Home = () => {
+const Home = ({}) => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['o', 'f', 't', 'w', 'a', 'r', 'e']
@@ -32,14 +33,24 @@ const Home = () => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
+  let tl = new gsap.timeline();
+  let ease = Power3.easeOut;
+
+
+
+  
 
   return (
-  
+
+
     <>
-     
+
+<Images timeline = {tl} ease = {ease}/>
 
       <div className="container home-page">
+
         <div className="text-zone">
+
           <h1>
             <div className="space">
             <span className={letterClass}>H</span>
@@ -85,9 +96,10 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+
         </div>
-        <About/>
         {/* <Logo /> */}
+      
 
       </div>
 
