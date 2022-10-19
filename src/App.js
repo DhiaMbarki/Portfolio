@@ -5,13 +5,16 @@ import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
 import './App.scss'
+import Logo from './components/Home/images/Logo'
+
 
 function App() {
   return (
     <>
       <Routes>
+      <Route index element={<Logo />} />      
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />

@@ -2,14 +2,14 @@ import { useEffect, useState,useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logoS.png'
 import {gsap, Power3} from 'gsap';
 
 // import Logo from './Logo'
 import Images from './Images'
 import './index.scss'
 
-const Home = ({}) => {
+const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['o', 'f', 't', 'w', 'a', 'r', 'e']
