@@ -11,18 +11,19 @@ import Logo from './components/Sidebar/Logo'
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-      <Route path="/Logo" element={<Logo />} />  
     
+      <Routes>
+
+      <Route path="/" element={<Logo />} />  
+
         <Route path="/" element={<Layout />}>
-          <Route path="/Home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
-      </BrowserRouter>
+      
     </>
   )
 }
