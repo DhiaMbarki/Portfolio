@@ -16,6 +16,7 @@ function App() {
 
       <Route path="/" element={<Logo />} />  
       <Route path="/Logo" element={<Logo />} />  
+      <Route path="/Logo" element={<Logo />} />  
 
 
         <Route path="/" element={<Layout />}>
