@@ -49,7 +49,20 @@ const About = () => {
         </div>
 
         <div className="stage-cube-cont">
+        <div className='size'>
+      <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title">
+            
+            
+        </div>
+        
+    </section>
+    </div>
           <div className="cubespinner">
+            
             <div className="face1">
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
@@ -71,6 +84,7 @@ const About = () => {
           </div>
         </div>
       </div>
+   
       <Loader type="pacman" />
     </>
   )
