@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -21,32 +22,7 @@ const Portfolio = () => {
 
  
 
-    const renderPortfolio = (portfolio) => {
-        return (
-            <div className="images-container">
-                {
-                    portfolio.map((port, idx) => {
-                        return (
-                            <div className="image-box" key={idx}>
-                                <img 
-                                src={port.image}
-                                className="portfolio-image"
-                                alt="portfolio" />
-                                <div className="content">
-                                    <p className="title">{port.name}</p>
-                                    <h4 className="description">{port.description}</h4>
-                                    <button
-                                        className="btn"
-                                        onClick={() => window.open(port.url)}
-                                    >View</button>
-                                </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-        );
-    }
+  
 
 
     return (
@@ -59,8 +35,34 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolio)}</div>
+
+
+
+
+
+                
+            <div className=" textt ">
+
+                <div className="max-w-5x1">
+
+            <Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      ...
+    </Swiper>
+    </div>
             </div>
+            </div>
+            
+            
+
             <Loader type="pacman" />
         </>
     );
