@@ -19,6 +19,8 @@
     "loaders.css": "^0.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.5",
+    "react-draggable-slider": "^0.1.6",
     "react-icons": "^4.6.0",
     "react-intersection-observer": "^9.4.0",
     "react-leaflet": "^3.2.5",
