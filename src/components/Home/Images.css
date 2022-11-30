@@ -1,12 +1,14 @@
 .images .box1{
     position: absolute;
-    top: 100px;
+    top: 3px;
     right: 80px;
-    background: url(images/img1.jpg) no-repeat 50% 50%;
+    background: url(images/light2.png) no-repeat 50% 50%;
     background-size: cover;
-    width: 250px;
-    border: .5px solid gray;
-    height: 350px;
+    width: 300px;
+    /* border: .5px solid gray; */
+    height: 300px;
+    border-radius: 50%;
+
 }
 .images .box2{
     position: absolute;
