@@ -1,12 +1,12 @@
 import Loader from "react-loaders";
-import "./index.scss";
+import "./index.css";
 import Slider from "react-draggable-slider";
 import project1 from "./imgs/pic1.png";
 import project2 from "./imgs/pic2.jpg";
 import project3 from "./imgs/pic3.png";
 import project4 from "./imgs/pic4.jpg";
 
-import MyImage from './imgs/left.gif';
+import MyImage from './imgs/touch-screen-gif-58.webp';
 
 
 
@@ -54,25 +54,24 @@ const Portfolio = () => {
 
  
 
-    const renderPortfolio = (portfolio) => {
-        return (
-           <div></div>
-        );
-    }
+    
 
 
     return (
         <>
-          <div className="move">
-        <img src={project1}   />
+        
+<div className="move">
+<img style={{ width: 80, height: 70, }} src={MyImage} alt="React Logo" />
 
         </div>
+         
          <div className="all">
     
       <Slider sliderSettings={sliderSettings} />
       
 
     </div>
+
     
 
     
