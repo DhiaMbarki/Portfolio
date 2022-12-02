@@ -61,7 +61,7 @@ const Portfolio = () => {
         <>
         
 <div className="move">
-<img style={{ width: 80, height: 70, }} src={MyImage} alt="React Logo" />
+<img style={{ width: 80, height: 60, }} src={MyImage} alt="React Logo" />
 
         </div>
          
