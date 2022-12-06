@@ -2,6 +2,8 @@ import React from 'react'
 import './Logo.scss'
 import slides from "./homeSlide";
 import classNames from "classnames";
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -75,7 +77,24 @@ class Logo extends React.Component {
                     <span key={i}>{l}</span>
                   ))}
                 </h2>
-                <p className="slider__slide-readmore">read more</p>
+                {/* <p className="slider__slide-readmore">read more</p> */}
+                {/* <Link to="/Home" className="button">
+            <nav>
+  <ul>
+    <li>
+      Check out
+      <span></span><span></span><span></span><span></span>
+    </li>
+   
+  
+  </ul>
+</nav>
+          </Link> */}
+           <Link to="/Home">
+<button class="button-52" role="button">Welcome!</button>
+          </Link>
+
+
               </div>
               <div className="slider__slide-parts">
                 {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
@@ -102,9 +121,8 @@ class Logo extends React.Component {
 
        
       </div>
-       
+      
 </section>
-
 
 
                   
