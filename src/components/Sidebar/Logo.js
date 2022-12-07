@@ -72,11 +72,11 @@ class Logo extends React.Component {
                 <h3 className="slider__slide-subheading">
                   {slide.country || slide.city}
                 </h3>
-                <h2 className="slider__slide-heading">
+                {/* <h2 className="slider__slide-heading">
                   {slide.city.split("").map((l, i) => (
                     <span key={i}>{l}</span>
                   ))}
-                </h2>
+                </h2> */}
                 {/* <p className="slider__slide-readmore">read more</p> */}
                 {/* <Link to="/Home" className="button">
             <nav>
@@ -90,10 +90,11 @@ class Logo extends React.Component {
   </ul>
 </nav>
           </Link> */}
+          <div className='up'>
            <Link to="/Home">
 <button class="button-52" role="button">Welcome!</button>
           </Link>
-
+          </div>
 
               </div>
               <div className="slider__slide-parts">

@@ -11,7 +11,7 @@ body {
 }
 
 $numOfParts: 4;
-$animTime: 1s;
+$animTime: 1.5s;
 $stagger: 0.08s;
 $sliderReadyTrans: all $animTime/2 $animTime;
 $maxLettersStagger: 6;
@@ -103,8 +103,8 @@ $letterStagger: 0.1s;
 
     &-subheading {
       margin-bottom: 20px;
-      font-size: 24px;
-      letter-spacing: 2px;
+      font-size: 40px;
+      letter-spacing: 3px;
       transform: translateY(20px);
       
       @include subTextsActiveSlide;
@@ -368,7 +368,7 @@ $letterStagger: 0.1s;
   z-index: -1;
   position: absolute;
   height: 100%;
-  top: 7px;
+  top: 10px;
   left: 7px;
   transition: 0.2s;
 }
@@ -382,4 +382,9 @@ $letterStagger: 0.1s;
   .button-52 {
     padding: 13px 50px 13px;
   }
+}
+
+
+.up{
+  margin-top: 20px;
 }

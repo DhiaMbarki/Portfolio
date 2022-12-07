@@ -1,11 +1,12 @@
 const slides = [
     {
-      city: 'Dhia',
-      country: '',
-      img: 'https://images.unsplash.com/photo-1473649085228-583485e6e4d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80',
+      country: 'Full Stack Developer ',
+      city: 'Full.Stack.Developer', 
+
+      img: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
     },
     {
-      city: 'ghassen',
+      city: 'Responsive Designing Website',
       img: 'https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     },
     {
