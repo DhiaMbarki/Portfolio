@@ -1,13 +1,13 @@
 const slides = [
     {
-      country: 'Full Stack Developer ',
-      city: 'Full.Stack.Developer', 
+      country: 'create full-stack websites',
 
-      img: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+
+      img: 'http://www.web24zone.com/wp-content/uploads/2022/09/2c778e_89d09c380b7b4a09bcdbcb329c4734b3_mv2.gif',
     },
     {
-      city: 'Responsive Designing Website',
-      img: 'https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      city: 'developing responsive designs',
+      img: 'https://img.freepik.com/vector-premium/concepto-web-programacion-codificacion-estilo-dibujos-animados_9209-4756.jpg?w=2000',
     },
     {
       city: 'sabri',
