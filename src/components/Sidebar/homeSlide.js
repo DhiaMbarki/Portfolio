@@ -7,17 +7,17 @@ const slides = [
     },
     {
       city: 'developing responsive designs',
-      img: 'https://img.freepik.com/vector-premium/concepto-web-programacion-codificacion-estilo-dibujos-animados_9209-4756.jpg?w=2000',
+      img: 'https://wallpaperaccess.com/full/3592482.png',
     },
     {
-      city: 'sabri',
+      city: 'working in a team environmen',
       country: '',
-      img: 'https://images.unsplash.com/photo-1511524511424-6fd4e055e7ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      img: 'https://wp-medias-solutions.lesechos.fr/2021/03/b52ca8f2-gettyimages-1262600344-scaled.jpg',
     },
     {
-      city: 'neirouz',
+      city: 'problem-solving',
       country: '',
-      img: 'https://images.unsplash.com/photo-1505421031134-e57263cae630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1928&q=80',
+      img: 'https://img.freepik.com/premium-vector/solution-solving-business-problem-skill-intelligence-overcome-difficulty-challenge-leadership-concept-smart-businessman-draw-line-showing-solution-solve-labyrinth-maze-problem_212586-1098.jpg?w=2000',
     },
     {
       city: 'cohort 9',
