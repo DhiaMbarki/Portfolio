@@ -3,26 +3,26 @@ const slides = [
       country: 'create full-stack websites',
 
 
-      img: 'http://www.web24zone.com/wp-content/uploads/2022/09/2c778e_89d09c380b7b4a09bcdbcb329c4734b3_mv2.gif',
+      img: 'https://img.freepik.com/free-photo/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room_482257-33353.jpg?w=1380&t=st=1670760383~exp=1670760983~hmac=40502c51b86ce1ae3f0ebf4abb6a11e3b34d5906e5b334c8b5c31187d4452ffc',
     },
     {
       city: 'developing responsive designs',
-      img: 'https://wallpaperaccess.com/full/3592482.png',
+      img: 'https://img.freepik.com/premium-photo/responsive-design-website-devices-isolated-white-background-3d-rendering-mockup_72104-3682.jpg?w=2000',
     },
     {
-      city: 'working in a team environmen',
+      city: 'working in a team environment',
       country: '',
-      img: 'https://wp-medias-solutions.lesechos.fr/2021/03/b52ca8f2-gettyimages-1262600344-scaled.jpg',
+      img: 'https://www.proofhub.com/wp-content/uploads/2019/01/How-to-Improve-Teamwork-and-Collaboration-Skills0A.jpeg',
     },
     {
       city: 'problem-solving',
       country: '',
-      img: 'https://img.freepik.com/premium-vector/solution-solving-business-problem-skill-intelligence-overcome-difficulty-challenge-leadership-concept-smart-businessman-draw-line-showing-solution-solve-labyrinth-maze-problem_212586-1098.jpg?w=2000',
+      img: 'https://www.cio.com/wp-content/uploads/2021/12/puzzle_problem_challenge_teamwork_partnership_strategy_cooperation_collaboration_thinkstock_588960966-100724503-orig.jpeg?quality=50&strip=all',
     },
     {
-      city: 'cohort 9',
-      country: 'Ne9es',
-      img: 'https://kappanonline.org/wp-content/uploads/2019/01/desegregation-racial-attitudes-intergroup-contact.jpg',
+      city: 'Creative thinking',
+      country: 'Creative thinking',
+      img: 'https://www.teahub.io/photos/full/203-2032303_the-creative-idea-drives-everything-digital-marketing-creative.jpg',
     },
   ];
   export default slides;
