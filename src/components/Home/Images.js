@@ -15,6 +15,8 @@ function Images({timeline, ease}) {
             scale: 1.6,
             ease: ease
         }, "-=1.2");
+
+        
         timeline.from(image2, 1.2, {
             y: 1200,
             ease: ease,

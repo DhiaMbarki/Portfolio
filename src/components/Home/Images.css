@@ -8,6 +8,8 @@
     /* border: .5px solid gray; */
     height: 230px;
     border-radius: 60%;
+    animation-play-state: paused;
+
 
 }
 .images .box2{
@@ -19,6 +21,7 @@
     width: 350px;
     border: .5px solid gray;
     height: 450px;
+    
 }
 .images .box3{
     position: absolute;

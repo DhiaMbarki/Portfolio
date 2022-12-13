@@ -32,20 +32,20 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a very ambitious front-end developer looking for a role in an
+          <h2 >
+            I'm a very ambitious front and back-end developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
+          </h2>
+          < h2 align="LEFT">
+           
+            Expert in front-end development including technologies like HTML5, Boostrap, CSS, Sass, Angular, React, TypeScript, Git
+
+          </h2>
+          <h2>
+          I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+          </h2>
         </div>
 
         <div className="stage-cube-cont">
