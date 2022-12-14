@@ -32,19 +32,33 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <h2 >
-            I'm a very ambitious front and back-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </h2>
           < h2 align="LEFT">
            
-            Expert in front-end development including technologies like HTML5, Boostrap, CSS, Sass, Angular, React, TypeScript, Git
+           Expert in front-end development including technologies like <spam className='color'>HTML5, </spam> 
+           <spam className='color'>Boostrap, </spam> 
+            <spam className='color' >CSS, </spam> <spam className='color'>Sass, </spam><spam className='color'>Angular, </spam> 
+            <spam className='color'>React, </spam><spam className='color'>TypeScript, </spam><spam className='color'> Git</spam>
 
+         </h2>
+         <h2>
+         Working on databases, back-end logic, application programming interface (APIs), Data Structures and Algorithms, using <spam className='color'>Node.js</spam>  <br/>
+        
+       
+         </h2>
+          <h2 >
+          
+          I have a good sense of aesthetics, and
+            experience in responsive, web design. I put special
+            effort into optimizing my code and providing the best user
+            experience. I would love to give you any kind of support also after
+            the project's completion. I guarantee a commitment during work on
+            your project.
+          
           </h2>
+       
           <h2>
-          I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+Visit my <a className='color' href="https://www.linkedin.com/in/dhia-mbarki-331270209/">LinkedIn</a>   profile for more details.Also you can checkout my cv on this +++++++++++     
+        
           </h2>
         </div>
 
