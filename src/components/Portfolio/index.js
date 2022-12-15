@@ -41,16 +41,16 @@ const Portfolio = () => {
       
       ];
     
-      const sliderSettings = {
-        data: projectList,
-        speed: 3000,
-        easing: "back",
-        bgColor: "#",
-        showButton: true,
-        buttonTarget: "_self",
-        showButton: false
+      // const sliderSettings = {
+      //   data: projectList,
+      //   speed: 3000,
+      //   easing: "back",
+      //   bgColor: "#",
+      //   showButton: true,
+      //   buttonTarget: "_self",
+      //   showButton: false
 
-      };
+      // };
 
  
 
