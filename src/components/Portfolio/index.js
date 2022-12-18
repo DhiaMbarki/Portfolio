@@ -1,75 +1,185 @@
 import Loader from "react-loaders";
-import "./index.css";
-import Slider from "react-draggable-slider";
-import project1 from "./imgs/pic1.png";
-import project2 from "./imgs/pic2.jpg";
-import project3 from "./imgs/pic3.png";
-import project4 from "./imgs/pic4.jpg";
+import "./index.scss";
 
-import MyImage from './imgs/touch-screen-gif-58.webp';
+
 
 
 
 const Portfolio = () => { 
  
-    const projectList = [
-        {
-        //   title: "Nature Is Life",
-          image: project1,
-
-        //   description:
-        //     "Praesent quis congue nisi. Vivamus dapibus suscipit magna at imperdiet. Mauris consectetur pharetra metus eu suscipit. Maecenas augue tortor, consequat vitae lacus id, pharetra tempor mauris. Suspendisse sodales commodo erat, non imperdiet nisl scelerisque at. Nulla porttitor gravida diam, in ornare ipsum accumsan bibendum. Morbi ut ante metus. "
-        },
-        {
-          // title: "Into The Waters",
-          image: project3,
-          // description:
-            // "Duis at tellus vitae velit aliquet varius. Fusce luctus libero et ligula tristique lobortis. Vestibulum eu placerat risus, eu semper augue. Integer at purus sit amet elit pretium viverra. Suspendisse id fringilla nibh, nec dictum urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "
-        },
-        {
-          // title: "Miniature Wonderers",
-          image: project4,
-          // description:
-            // "Praesent quis congue nisi. Vivamus dapibus suscipit magna at imperdiet. Mauris consectetur pharetra metus eu suscipit. Maecenas augue tortor, consequat vitae lacus id, pharetra tempor mauris. Suspendisse sodales commodo erat, non imperdiet nisl scelerisque at. Nulla porttitor gravida diam, in ornare ipsum accumsan bibendum. Morbi ut ante metus. "
-        },
-        {
-          // title: "Higher Than The Stars",
-        //   image: project5,
-          // description:
-            // "Praesent quis congue nisi. Vivamus dapibus suscipit magna at imperdiet. Maecenas augue tortor, consequat vitae lacus id, pharetra tempor mauris. Suspendisse sodales commodo erat, non imperdiet nisl scelerisque at. Nulla porttitor gravida diam, in ornare ipsum accumsan bibendum. Morbi ut ante metus. Proin rhoncus magna lectus, nec consequat augue ultricies eu."
-        },
-      
-      ];
-    
-      // const sliderSettings = {
-      //   data: projectList,
-      //   speed: 3000,
-      //   easing: "back",
-      //   bgColor: "#",
-      //   showButton: true,
-      //   buttonTarget: "_self",
-      //   showButton: false
-
-      // };
-
- 
-
     
 
 
     return (
         <>
         
-<div className="move">
-<img style={{ width: 80, height: 60, }} src={MyImage} alt="React Logo" />
+        <div class="demo-wrapper">
+      <h1 class="demo-title">Pure CSS Slider</h1>
+      <section class="slider-wrapper">
+        <input
+          type="radio"
+          name="slides"
+          checked="checked"
+          id="slide_1"
+          hidden
+        />
+        <input type="radio" name="slides" id="slide_2" hidden />
+        <input type="radio" name="slides" id="slide_3" hidden />
+        <input type="radio" name="slides" id="slide_4" hidden />
+        <input type="radio" name="slides" id="slide_5" hidden />
 
+        <ul class="slider-slides">
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/16/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/24/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/26/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/28/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/34/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li class="slider-slide">
+            <section class="slider-content">
+              <h2 class="slider-title">Slide #6</h2>
+              <p class="demo-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam expedita mollitia esse voluptatibus modi hic ex
+                officiis veniam dolor minima accusantium accusamus laudantium
+                iste, tempore fugit libero maxime iusto neque.
+              </p>
+
+              <a class="demo-btn" href="#!">Learn more</a>
+            </section>
+
+            <div class="slider-img-wrapper">
+              <img
+                class="slider-image"
+                src="https://picsum.photos/id/32/1920/400"
+                alt=""
+              />
+            </div>
+          </li>
+        </ul>
+
+        <div class="slider-arrows">
+          <label class="slider-arrow" for="slide_1"></label>
+          <label class="slider-arrow" for="slide_2"></label>
+          <label class="slider-arrow" for="slide_3"></label>
+          <label class="slider-arrow" for="slide_4"></label>
+          <label class="slider-arrow" for="slide_5"></label>
+          <label class="slider-arrow -go-to-first" for="slide_1"></label>
+          <label class="slider-arrow -go-to-last" for="slide_5"></label>
         </div>
-         
-         <div className="all">
-    
-      <Slider sliderSettings={sliderSettings} />
-      
 
+        <div class="slider-nav">
+          <label class="slider-nav-item" for="slide_1"></label>
+          <label class="slider-nav-item" for="slide_2"></label>
+          <label class="slider-nav-item" for="slide_3"></label>
+          <label class="slider-nav-item" for="slide_4"></label>
+          <label class="slider-nav-item" for="slide_5"></label>
+        </div>
+      </section>
     </div>
 
     

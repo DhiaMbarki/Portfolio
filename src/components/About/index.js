@@ -28,16 +28,16 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={['s', 'k','i', 'l', 'l', 's', ' ', '&', ' ','e','x','p','e','r','i','e','n','c','e']}
               idx={15}
             />
           </h1>
-          < h2 align="LEFT">
+          < h2 className='biger' align="LEFT">
            
            Expert in front-end development including technologies like <spam className='color'>HTML5, </spam> 
            <spam className='color'>Boostrap, </spam> 
             <spam className='color' >CSS, </spam> <spam className='color'>Sass, </spam><spam className='color'>Angular, </spam> 
-            <spam className='color'>React, </spam><spam className='color'>TypeScript, </spam><spam className='color'> Git</spam>
+            <spam className='color'>React, </spam><spam className='color'>React Native, </spam><spam className='color'>TypeScript, </spam><spam className='color'> Git</spam>
 
          </h2>
          <h2>
