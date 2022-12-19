@@ -1,5 +1,5 @@
 import Loader from "react-loaders";
-import "./index.scss";
+import "./index.css";
 
 
 
@@ -13,174 +13,46 @@ const Portfolio = () => {
     return (
         <>
         
-        <div class="demo-wrapper">
-      <h1 class="demo-title">Pure CSS Slider</h1>
-      <section class="slider-wrapper">
-        <input
-          type="radio"
-          name="slides"
-          checked="checked"
-          id="slide_1"
-          hidden
-        />
-        <input type="radio" name="slides" id="slide_2" hidden />
-        <input type="radio" name="slides" id="slide_3" hidden />
-        <input type="radio" name="slides" id="slide_4" hidden />
-        <input type="radio" name="slides" id="slide_5" hidden />
+        
+        <section class="testimonial text-center">
+        <div class="container">
 
-        <ul class="slider-slides">
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/16/1920/400"
-                alt=""
-              />
+            <div class="heading white-heading">
+                Testimonial
             </div>
-          </li>
-
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/24/1920/400"
-                alt=""
-              />
+            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+             
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client 1</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client 2</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client 3</h4>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-          </li>
-
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/26/1920/400"
-                alt=""
-              />
-            </div>
-          </li>
-
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/28/1920/400"
-                alt=""
-              />
-            </div>
-          </li>
-
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/34/1920/400"
-                alt=""
-              />
-            </div>
-          </li>
-
-          <li class="slider-slide">
-            <section class="slider-content">
-              <h2 class="slider-title">Slide #6</h2>
-              <p class="demo-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam expedita mollitia esse voluptatibus modi hic ex
-                officiis veniam dolor minima accusantium accusamus laudantium
-                iste, tempore fugit libero maxime iusto neque.
-              </p>
-
-              <a class="demo-btn" href="#!">Learn more</a>
-            </section>
-
-            <div class="slider-img-wrapper">
-              <img
-                class="slider-image"
-                src="https://picsum.photos/id/32/1920/400"
-                alt=""
-              />
-            </div>
-          </li>
-        </ul>
-
-        <div class="slider-arrows">
-          <label class="slider-arrow" for="slide_1"></label>
-          <label class="slider-arrow" for="slide_2"></label>
-          <label class="slider-arrow" for="slide_3"></label>
-          <label class="slider-arrow" for="slide_4"></label>
-          <label class="slider-arrow" for="slide_5"></label>
-          <label class="slider-arrow -go-to-first" for="slide_1"></label>
-          <label class="slider-arrow -go-to-last" for="slide_5"></label>
         </div>
-
-        <div class="slider-nav">
-          <label class="slider-nav-item" for="slide_1"></label>
-          <label class="slider-nav-item" for="slide_2"></label>
-          <label class="slider-nav-item" for="slide_3"></label>
-          <label class="slider-nav-item" for="slide_4"></label>
-          <label class="slider-nav-item" for="slide_5"></label>
-        </div>
-      </section>
-    </div>
+    </section>
 
     
 
