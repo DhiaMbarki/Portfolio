@@ -1,7 +1,7 @@
 import Loader from "react-loaders";
 import "./index.css";
 
-
+import img from './imgs/javascript.png'
 
 
 
@@ -12,7 +12,8 @@ const Portfolio = () => {
 
     return (
         <>
-        
+   
+
         <div class="containerr">
 	<div className="row">
 		<div className="col-md-8 col-center">
@@ -25,7 +26,7 @@ const Portfolio = () => {
 				<div className="carousel-inner">
 					<div className="item active">
 						<div className="img-box">
-                            <img src="/examples/images/clients/1.jpg" alt=""/></div>
+                            <img src="https://images.ctfassets.net/hrltx12pl8hq/3j5RylRv1ZdswxcBaMi0y7/b84fa97296bd2350db6ea194c0dce7db/Music_Icon.jpg" alt=""/></div>
 						<p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
 						<p className="overview"><b>Paula Wilson</b>, Media Analyst</p>
 					</div>
@@ -47,11 +48,14 @@ const Portfolio = () => {
 					<i className="fa fa-angle-right"></i>
 				</a>
 			</div>
+		
 		</div>
 	</div>
+	
 </div>
-      
-
+<div className="icons">
+			 <img src={img} alt="" />;
+			 </div>
     
             <Loader type="pacman" />
            
