@@ -19,6 +19,8 @@
     "leaflet": "^1.7.1",
     "loaders.css": "^0.1.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-carousel": "^4.1.1",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.5",
     "react-draggable-slider": "^0.1.6",

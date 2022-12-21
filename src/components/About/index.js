@@ -32,20 +32,20 @@ const About = () => {
               idx={15}
             />
           </h1>
-          < h2 className='biger' align="LEFT">
+          < h3 className='biger' align="LEFT" >
            
            Expert in front-end development including technologies like <spam className='color'>HTML5, </spam> 
            <spam className='color'>Boostrap, </spam> 
             <spam className='color' >CSS, </spam> <spam className='color'>Sass, </spam><spam className='color'>Angular, </spam> 
             <spam className='color'>React, </spam><spam className='color'>React Native, </spam><spam className='color'>TypeScript, </spam><spam className='color'> Git</spam>
 
-         </h2>
-         <h2>
+         </h3>
+         <h3>
          Working on databases, back-end logic, application programming interface (APIs), Data Structures and Algorithms, using <spam className='color'>Node.js</spam>  <br/>
         
        
-         </h2>
-          <h2 >
+         </h3>
+          <h3 >
           
           I have a good sense of aesthetics, and
             experience in responsive, web design. I put special
@@ -54,12 +54,12 @@ const About = () => {
             the project's completion. I guarantee a commitment during work on
             your project.
           
-          </h2>
+          </h3>
        
-          <h2>
+          <h3>
 Visit my <a className='color' href="https://www.linkedin.com/in/dhia-mbarki-331270209/">LinkedIn</a>   profile for more details.Also you can checkout my cv on this +++++++++++     
         
-          </h2>
+          </h3>
         </div>
 
         <div className="stage-cube-cont">
