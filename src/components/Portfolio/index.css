@@ -100,7 +100,79 @@ h2::after {
 }
 
 
+.icon0{
+	/* margin-top: -100px; */
+	width: 60px;
+	/* margin-left: 160px; */
+}
 
-
-.icons{
+.icon1{
+	/* margin-top: -100px; */
+	width: 60px;
+	/* margin-left: 50px;	 */
+}
+	.icon2{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
 	}
+	.icon3{
+		/* margin-top: -100px; */
+		width: 70px;
+		/* margin-left: 50px;	 */
+	}
+	.icon4{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon5{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon6{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon7{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon8{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon9{
+		/* margin-top: -100px; */
+		width: 90px;
+		/* margin-left: 50px;	 */
+	}
+	.icon10{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+	.icon11{
+		/* margin-top: -100px; */
+		width: 60px;
+		/* margin-left: 50px;	 */
+	}
+
+	.all{
+		max-width: 100%;
+    height: auto;
+	/* margin-left: 400px; */
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+}
+.all img{
+	
+	margin: -1vw 2vw;
+	width: 60px;
+	margin-left: 5px;
+}
