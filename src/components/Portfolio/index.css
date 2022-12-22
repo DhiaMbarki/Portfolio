@@ -95,7 +95,7 @@ h2::after {
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
 .carousel-indicators li.active {	
-	background: #555;		
+	background: yellow;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
 
@@ -169,10 +169,12 @@ h2::after {
 	display: flex;
 	justify-content: center;
 	flex-flow: row nowrap;
+	margin-left: 70px;
+
 }
 .all img{
 	
-	margin: -1vw 2vw;
+	margin: -1vw 3vw;
 	width: 60px;
-	margin-left: 5px;
+	margin-left: 6px;
 }
