@@ -26,9 +26,16 @@ const Portfolio = () => {
 				<div className="carousel-inner">
 					<div className="item active">
 						<div className="img-box">
-                            <img src="https://images.ctfassets.net/hrltx12pl8hq/3j5RylRv1ZdswxcBaMi0y7/b84fa97296bd2350db6ea194c0dce7db/Music_Icon.jpg" alt=""/></div>
-						<p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-						<p className="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <img src="https://techneos.xyz/assets/img/web_development.gif" alt=""/></div>
+						<p className="testimonial">
+						•  Learned organization's overall strategies, business operates and what drives success in the busniss.<br/>
+
+						• Implemented rich user experiences by creating 30- new features utilizing HTML/JS/CSS .<br/>
+						• Setup initial project structure and dependencies with technical analysis and time estimates.<br/>
+						• Learn to work in a team environment and organizing meetings, discussions and developing the product (ux, design, front-end and back-end tasks).
+                      
+						</p>
+						<p className="overview"><b>mar 2019 - dec 2019</b>,Tunis,Ariana</p>
 					</div>
 					<div className="item">
 						<div className="img-box"><img src="/examples/images/clients/2.jpg" alt=""/></div>
