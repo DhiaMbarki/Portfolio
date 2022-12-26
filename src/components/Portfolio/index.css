@@ -23,7 +23,7 @@ h2::after {
 } */
 
 .containerr{
-	margin-top: -50px;
+	margin-top: -80px;
 
 }
 .col-center {
@@ -37,7 +37,7 @@ h2::after {
 }
 .carousel .item {
 	color: rgb(199, 192, 192);
-	font-size: 20px;
+	font-size:20px;
     text-align: center;
 	overflow: hidden;
     min-height: 300px;
@@ -176,9 +176,10 @@ h2::after {
 }
 .all img{
 	
-	margin: -1vw 1vw;
-	width: 60px;
+	margin: -2vw 1vw;
+	width: 52px;
 	margin-left: 9px;
+	margin-top: -170px;
 }
 
 

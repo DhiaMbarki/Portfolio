@@ -22,6 +22,8 @@ const Portfolio = () => {
 					<li data-target="#myCarousel" data-slide-to="0" className="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+
 				</ol>   
 				<div className="carousel-inner">
 					<div className="item active">
@@ -32,20 +34,47 @@ const Portfolio = () => {
 
 						• Implemented rich user experiences by creating 30- new features utilizing HTML/JS/CSS .<br/>
 						• Setup initial project structure and dependencies with technical analysis and time estimates.<br/>
-						• Learn to work in a team environment and organizing meetings, discussions and developing the product (ux, design, front-end and back-end tasks).
-                      
+						• Learn to work in a team environment and organizing meetings, discussions and developing the product (ux, design, front-end and back-end tasks).<br/>
+						• Evaluated and improved existing data systems under mentor supervision.
 						</p>
 						<p className="overview"><b>mar 2019 - dec 2019</b>,Tunis,Ariana</p>
 					</div>
 					<div className="item">
-						<div className="img-box"><img src="/examples/images/clients/2.jpg" alt=""/></div>
-						<p className="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-						<p className="overview"><b>Antonio Moreno</b>, Web Developer</p>
+						<div className="img-box"><img src="https://camo.githubusercontent.com/bebb8c335f407e6f31ed9da75ebecc86cebc8941efae0ec924b6903b3fbb94c5/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313537393332322f73637265656e73686f74732f363538373237332f626c75655f626f795f747970696e675f6e6f74686f756768742e676966" alt=""/></div>
+						<p className="testimonial">• developed 20+ front-end and back-end applications utilizing React.js, Node.js and type script.<br/>
+						• developed 10+ new application features and distributed services that support hight-scale applications.<br/>
+						• Assisted in developing and implementing systems architecture designs, patterns, and approaches. <br/>
+						• developed web applications and components using Angular.js, including software testing practices.<br/>
+						• Collaborated with 2 different development teams on 4 new project designs and feature improvements. <br/>
+						• Diagnosed and fixed report functionality issues by troubleshooting.
+						
+						</p>
+						<p className="overview"><b>jan 2020 - dec 2020</b>, Tunis,Ariana</p>
 					</div>
 					<div className="item">
-						<div className="img-box"><img src="/examples/images/clients/3.jpg" alt=""/></div>
-						<p className="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-						<p className="overview"><b>Michael Holz</b>, Seo Analyst</p>
+						<div className="img-box"><img src="https://www.wemanageit.com.ph/wp-content/uploads/2020/04/website-developer.gif" alt=""/></div>
+						<p className="testimonial">
+						• Developed professional web and mobile platforms using advanced algorithms based on client needs successfully in a team environment, and also independently.<br/>
+						• comminicated with line of business and managed the overall status and health of 20+ applications.<br/>
+						• Attend 100+ weekly standup meeting to receive weekly tasks and mentorship from a group of senior developers.<br/>
+						•Developed and maintained 20+ front-ends web application focused on user experience.
+
+						
+						</p>
+						<p className="overview"><b>fev 2021 - oct 2021 </b>, Self-employed</p>
+					</div>
+
+					<div className="item">
+						<div className="img-box"><img src="https://www.wemanageit.com.ph/wp-content/uploads/2020/04/website-developer.gif" alt=""/></div>
+						<p className="testimonial">
+						• Developed professional web and mobile platforms using advanced algorithms based on client needs successfully in a team environment, and also independently.<br/>
+						• comminicated with line of business and managed the overall status and health of 20+ applications.<br/>
+						• Attend 100+ weekly standup meeting to receive weekly tasks and mentorship from a group of senior developers.<br/>
+						•Developed and maintained 20+ front-ends web application focused on user experience.
+
+						
+						</p>
+						<p className="overview"><b>fev 2021 - oct 2021 </b>, Self-employed</p>
 					</div>
 				</div>
 				<a className="carousel-control left" href="#myCarousel" data-slide="prev">
