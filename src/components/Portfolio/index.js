@@ -65,7 +65,7 @@ const Portfolio = () => {
 					</div>
 
 					<div className="item">
-						<div className="img-box"><img src="https://www.wemanageit.com.ph/wp-content/uploads/2020/04/website-developer.gif" alt=""/></div>
+						<div className="img-box"><img src="https://cdn.dribbble.com/users/1876781/screenshots/6169542/web_character.gif" alt=""/></div>
 						<p className="testimonial">
 						• Developed 15 web apps for multiple clients, providing a wide range of functionality and tools enabling mission-critical prosses.<br/>
 						• Led 10 Successful (on schedule and budget) agile development projects for clients. <br/>
