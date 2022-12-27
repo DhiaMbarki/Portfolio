@@ -27,6 +27,7 @@ function Images({timeline, ease}) {
             ease: ease
         }, "-=1");
     })
+    
     return (
         <div>
             <div className="images">

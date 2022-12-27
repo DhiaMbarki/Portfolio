@@ -67,14 +67,16 @@ const Portfolio = () => {
 					<div className="item">
 						<div className="img-box"><img src="https://www.wemanageit.com.ph/wp-content/uploads/2020/04/website-developer.gif" alt=""/></div>
 						<p className="testimonial">
-						• Developed professional web and mobile platforms using advanced algorithms based on client needs successfully in a team environment, and also independently.<br/>
-						• comminicated with line of business and managed the overall status and health of 20+ applications.<br/>
-						• Attend 100+ weekly standup meeting to receive weekly tasks and mentorship from a group of senior developers.<br/>
-						•Developed and maintained 20+ front-ends web application focused on user experience.
+						• Developed 15 web apps for multiple clients, providing a wide range of functionality and tools enabling mission-critical prosses.<br/>
+						• Led 10 Successful (on schedule and budget) agile development projects for clients. <br/>
+						• Resolved over 250 critical software bugs to resolve issues and improve performance 34 test driven deployments (TDD) using Rspec and jasmine spec runner for unit and functional testing.<br/>
+						•Attend 100+ weekly standup meeting to receive weekly tasks and mentorship from a group of senior developers.<br/>
+						•Collaborated with 2 engineering teams on domain, design, and code testing 12+ projects.
+
 
 						
 						</p>
-						<p className="overview"><b>fev 2021 - oct 2021 </b>, Self-employed</p>
+						<p className="overview"><b>jan 2022 - nov 2022 </b>, Self-employed</p>
 					</div>
 				</div>
 				<a className="carousel-control left" href="#myCarousel" data-slide="prev">
