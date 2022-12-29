@@ -24,7 +24,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_ml6kza2', 'template_j5bfrsf', form.current, 'hPEI23KYZswNCsuXL')
+      .sendForm('service_2pqdhqt', 'template_j5bfrsf', form.current, 'PRN0wElFSGo8DmDZR')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -47,11 +47,10 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
+          <h3 className='letter'>
+            I would love to give you any kind of support to your company, I can bring to your organization not only my ideas from my previous job, but my general passion for innovation too . However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
-          </p>
+          </h3>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
@@ -98,7 +97,7 @@ const Contact = () => {
           <span>dhiambarki1998@gmail.com</span>
         </div>
         <div className="map-wrap">
-        <MapContainer center={[36.6588284, 10.1463903]} zoom={10}>
+        <MapContainer center={[36.6588284, 10.1463903]} zoom={9.5}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[36.6588284, 10.1463903]}>
               <Popup>Dhia lives here, come over for a cup of coffee :)</Popup>

@@ -1,14 +1,13 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/light.jpg'
+import LogoS from '../../assets/images/dhia-1 (2).png'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -73,7 +72,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/dhia-mbarki-331270209/"
             target="_blank"
             rel="noreferrer"
           >
@@ -86,7 +85,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/DhiaMbarki"
             target="_blank"
             rel="noreferrer"
           >
@@ -99,26 +98,19 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100068902304818"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
+              icon={faFacebook}
               color="#4d4d4e"
               className="anchor-icon"
             />
           </a>
         </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
+        
+     
       </ul>
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
