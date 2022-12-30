@@ -92,7 +92,7 @@ class Logo extends React.Component {
           </Link> */}
           <div className='up'>
            <Link to="/Home">
-<button class="button-52" role="button">Welcome!</button>
+<button class="button-52" role="button">Welcome 👋🏻</button>
           </Link>
           </div>
 

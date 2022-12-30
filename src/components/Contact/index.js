@@ -97,7 +97,7 @@ const Contact = () => {
           <span>dhiambarki1998@gmail.com</span>
         </div>
         <div className="map-wrap">
-        <MapContainer center={[36.6588284, 10.1463903]} zoom={9.5}>
+        <MapContainer center={[36.6588284, 10.1463903]} zoom={10}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[36.6588284, 10.1463903]}>
               <Popup>Dhia lives here, come over for a cup of coffee :)</Popup>
