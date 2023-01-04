@@ -1,12 +1,12 @@
 .images .box1{
     position: absolute;
     top: 3px;
-    right: 80px;
-    /* background: url(images/light2.png) no-repeat 50% 50%; */
+    right: 600px;
+    background: url(images/102d262e-2af0-4da5-9c55-8e434b35a875_rw_600.gif) no-repeat 50% 50%;
     background-size: cover;
-    width: 230px;
+    width: 180px;
     /* border: .5px solid gray; */
-    height: 230px;
+    height: 180px;
     border-radius: 60%;
     
 
@@ -14,13 +14,13 @@
 .images .box2{
     position: absolute;
     top: 210px;
-    right: 410px;
+    right: 2px;
     background: url(images/IMG-2588.png) no-repeat 50% 50%;
     background-size: cover;
-    width: 340px;
-    /* border: .1px solid rgb(253, 253, 253); */
+    max-width: 100%;
+    width: 340px;    /* border: .1px solid rgb(253, 253, 253); */
     height: 580px;
-    border-radius: 60%;
+    border-radius: 0%;
 
 }
 .images .box3{
