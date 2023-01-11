@@ -37,19 +37,19 @@ const Portfolio = () => {
 						• Learn to work in a team environment and organizing meetings, discussions and developing the product (ux, design, front-end and back-end tasks).<br/>
 						• Evaluated and improved existing data systems under mentor supervision.
 						</p>
-						<p className="overview"><b>mar 2019 - dec 2019</b>,Tunis,Ariana</p>
+						<p className="overview"><b>mar 2019 - dec 2019</b> Junior Full Stack Developer</p>
 					</div>
 					<div className="item">
 						<div className="img-box"><img src="https://camo.githubusercontent.com/bebb8c335f407e6f31ed9da75ebecc86cebc8941efae0ec924b6903b3fbb94c5/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313537393332322f73637265656e73686f74732f363538373237332f626c75655f626f795f747970696e675f6e6f74686f756768742e676966" alt=""/></div>
 						<p className="testimonial">• developed 20+ front-end and back-end applications utilizing React.js, Node.js and type script.<br/>
 						• developed 10+ new application features and distributed services that support hight-scale applications.<br/>
 						• Assisted in developing and implementing systems architecture designs, patterns, and approaches. <br/>
-						• developed web applications and components using Angular.js, including software testing practices.<br/>
+						• developed web applications and components using Angular, including software testing practices.<br/>
 						• Collaborated with 2 different development teams on 4 new project designs and feature improvements. <br/>
 						• Diagnosed and fixed report functionality issues by troubleshooting.
 						
 						</p>
-						<p className="overview"><b>jan 2020 - dec 2020</b>, Tunis,Ariana</p>
+						<p className="overview"><b>jan 2020 - dec 2020</b></p>
 					</div>
 					<div className="item">
 						<div className="img-box"><img src="https://www.wemanageit.com.ph/wp-content/uploads/2020/04/website-developer.gif" alt=""/></div>
@@ -61,7 +61,7 @@ const Portfolio = () => {
 
 						
 						</p>
-						<p className="overview"><b>fev 2021 - oct 2021 </b>, Self-employed</p>
+						<p className="overview"><b>fev 2021 - oct 2021 </b>, Team Leader</p>
 					</div>
 
 					<div className="item">
@@ -76,7 +76,7 @@ const Portfolio = () => {
 
 						
 						</p>
-						<p className="overview"><b>jan 2022 - nov 2022 </b>, Self-employed</p>
+						<p className="overview"><b>jan 2022 - nov 2022 </b>, Team Leader</p>
 					</div>
 				</div>
 				<a className="carousel-control left" href="#myCarousel" data-slide="prev">

@@ -6,15 +6,15 @@ function Images({timeline, ease}) {
 
     
     useEffect(()=>{
-        timeline.from(image1, 1.2, {
-            y: 1200,
-            ease: ease,
-            opacity: 0
-        },"-=1")
-        .from(image1, 2, {
-            scale: 1.6,
-            ease: ease
-        }, "-=1.2");
+        // timeline.from(image1, 1.2, {
+        //     y: 1200,
+        //     ease: ease,
+        //     opacity: 0
+        // },"-=1")
+        // .from(image1, 2, {
+        //     scale: 1.6,
+        //     ease: ease
+        // }, "-=1.2");
 
         
         timeline.from(image2, 1.2, {

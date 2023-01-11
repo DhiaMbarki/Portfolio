@@ -57,7 +57,7 @@ const About = () => {
           </h3>
        
           <h3>
-Visit my <a className='color' href="https://www.linkedin.com/in/dhia-mbarki-331270209/">LinkedIn</a>   profile for more details.Also you can checkout my cv on this +++++++++++     
+Visit my <a className='color' href="https://www.linkedin.com/in/dhia-mbarki-331270209/">LinkedIn</a>   profile for more details.Also you can checkout my <a className='color'>cv</a> on this <a className='color' href="https://drive.google.com/file/d/14VtGBO8rrE_GI-BYyx6Ks2jgRYvBx_Qp/view?usp=share_link">Link</a>    
         
           </h3>
         </div>
